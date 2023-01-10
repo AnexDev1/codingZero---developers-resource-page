@@ -15,7 +15,8 @@ body {
 
 /* header section */
 .header {
-  height: 600px;
+  height: 80vh;
+  width: 100vw;
   /* background-color: #4484ce;
    */
   background: rgb(2, 0, 36);
@@ -31,8 +32,6 @@ body {
   color: #fff;
   font-weight: 600;
   padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
 }
 .nav-text {
   margin-top: 1.5rem;
@@ -40,13 +39,16 @@ body {
   letter-spacing: 1.8px;
 }
 .header-items {
-  position: absolute;
-  top: 3%;
-  left: 50%;
-  width: 45%;
-  transform: translate(-50%, 15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  flex-direction: column;
   text-align: center;
   color: #fff;
+}
+.header-text-box {
+  width: 50%;
 }
 .header-text {
   margin-bottom: 2.5rem;
