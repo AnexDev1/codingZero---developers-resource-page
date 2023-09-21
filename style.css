@@ -269,6 +269,9 @@ body {
   .btn:visited {
     padding: 0.8rem 1.3rem; /* Adjust padding for tablets */
   }
+  .header-text-box {
+    width: 85%;
+  }
   /* Add any other tablet-specific styles here */
 }
 
@@ -336,6 +339,9 @@ body {
   .btn:link,
   .btn:visited {
     padding: 0.6rem 1rem; /* Adjust padding for phones */
+  }
+  .header-text-box {
+    width: 100%;
   }
   /* You can add more adjustments for smaller screens as needed */
 }
