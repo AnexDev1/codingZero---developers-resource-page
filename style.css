@@ -299,7 +299,7 @@ body {
 
   /* Adjust other styles for phones here */
   .header {
-    height: auto; /* Change height to auto for better responsiveness */
+    height: 21rem; /* Change height to auto for better responsiveness */
     padding: 1rem;
     overflow: hidden; /* Add this to prevent the header from overflowing */
   }
