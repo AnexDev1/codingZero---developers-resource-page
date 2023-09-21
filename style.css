@@ -301,10 +301,8 @@ body {
     overflow: hidden; /* Add this to prevent the header from overflowing */
   }
   .header-text {
-    margin-bottom: 1.4rem;
     font-size: 1.2rem;
     font-weight: bold;
-    letter-spacing: 5px;
   }
   .section-header {
     font-weight: 400;
@@ -342,6 +340,17 @@ body {
   }
   .header-text-box {
     width: 100%;
+  }
+  .main-nav {
+    padding: 0.8rem 0.5rem;
+  }
+  .nav-text {
+    margin-top: 1rem;
+    font-size: 26px;
+    letter-spacing: 1.4px;
+  }
+  .btn-box {
+    margin-bottom: 1rem;
   }
   /* You can add more adjustments for smaller screens as needed */
 }
