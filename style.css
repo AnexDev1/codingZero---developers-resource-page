@@ -15,7 +15,7 @@ body {
 
 /* header section */
 .header {
-  height: 80vh;
+  height: 30rem;
   width: 100vw;
   /* background-color: #4484ce;
    */
@@ -51,7 +51,7 @@ body {
   width: 50%;
 }
 .header-text {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   line-height: 1.2;
 }
 
@@ -268,6 +268,9 @@ body {
   .btn:link,
   .btn:visited {
     padding: 0.8rem 1.3rem; /* Adjust padding for tablets */
+  }
+  .header {
+    height: 25rem;
   }
   .header-text-box {
     width: 85%;
