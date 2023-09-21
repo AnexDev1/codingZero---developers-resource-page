@@ -80,11 +80,13 @@ body {
     rgba(0, 212, 255, 0.4) 100%
   );
   color: #fff;
+  transition: all 0.3s;
 }
 
 /* section-nav */
 .section-nav {
   margin: 2rem auto;
+  overflow: hidden;
 }
 .section-nav-list {
   display: flex;
@@ -163,32 +165,18 @@ body {
 }
 
 /* sections */
-.section-tools {
-  background-color: #ecf3fa;
-}
-.section-html {
-  background-color: #fff;
-}
-.section-css {
-  background-color: #ecf3fa;
-}
-.section-js {
-  background-color: #fff;
-}
-.section-fonts {
-  background-color: #ecf3fa;
-}
-.section-colors {
-  background-color: #fff;
-}
-.section-images {
-  background-color: #ecf3fa;
-}
-.section-icons {
-  background-color: #fff;
-}
+.section-tools,
+.section-css,
+.section-fonts,
+.section-images,
 .section-design {
   background-color: #ecf3fa;
+}
+.section-html,
+.section-js,
+.section-colors,
+.section-icons {
+  background-color: #fff;
 }
 
 .footer {
@@ -253,4 +241,41 @@ body {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* For tablets (max-width: 1024px) */
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .nav-text {
+    font-size: 1.5rem;
+  }
+  .grid-col-2 {
+    grid-template-columns: repeat(2, 400px);
+  }
+  .grid-col-3 {
+    grid-template-columns: repeat(2, 350px);
+  }
+  /* Add any other tablet-specific styles here */
+}
+
+/* For phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .nav-text {
+    font-size: 1.2rem;
+  }
+  .grid-col-2 {
+    grid-template-columns: repeat(1, 350px);
+  }
+  .grid-col-3 {
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  /* Adjust other styles for phones here */
+  .header {
+    height: auto; /* Change height to auto for better responsiveness */
+    padding: 1rem;
+    overflow: hidden; /* Add this to prevent the header from overflowing */
+  }
+
+  /* You can add more adjustments for smaller screens as needed */
 }
