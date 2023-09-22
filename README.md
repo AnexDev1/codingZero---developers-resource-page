@@ -38,7 +38,7 @@ To run the website locally on your computer, follow these steps:
 
 1. Clone this repository to your local machine using:
 
-git clone https://github.com/your-username/codingzero-website.git
+`git clone https://github.com/your-username/codingzero-website.git`
 
 2. Open the project folder in your code editor.
 
