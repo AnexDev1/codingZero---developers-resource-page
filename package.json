@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@loglib/tracker": "^0.8.0"
+  }
+}
