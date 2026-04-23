@@ -142,5 +142,10 @@ export const resourcesData: Resource[] = [
   // --- Learning & System Design ---
   { id: 20, title: "ByteByteGo", desc: "System Design Interview prep and insights.", url: "https://bytebytego.com", category: "Learning & System Design", tags: ["Learning", "Interviews"] },
   { id: 23, title: "FreeCodeCamp", desc: "Learn to code — for free.", url: "https://freecodecamp.org", category: "Learning & System Design", tags: ["Free", "Courses"] },
-  { id: 24, title: "Frontend Mentor", desc: "Improve your front-end coding skills by building real projects.", url: "https://frontendmentor.io", category: "Learning & System Design", tags: ["Challenges", "Frontend"] }
+  { id: 24, title: "Frontend Mentor", desc: "Improve your front-end coding skills by building real projects.", url: "https://frontendmentor.io", category: "Learning & System Design", tags: ["Challenges", "Frontend"] },
+
+  // --- New Additions ---
+  { id: 128, title: "Blyp", desc: "Bun-first and Node-compatible TypeScript logger for local apps, frameworks, and agent workflows.", url: "https://blyp.dev/", category: "JavaScript Ecosystem", tags: ["Logging", "Bun", "Node.js"], trending: true, newRelease: true },
+  { id: 129, title: "Pine", desc: "AI-Powered Forms platform to create intelligent forms, collect responses, and analyze data.", url: "https://pine.roggy.site/", category: "AI & Code Generation", tags: ["AI", "Forms", "Analytics"], newRelease: true },
+  { id: 130, title: "Farming Labs", desc: "A suite of innovative JS tools including farm-ui, docs framework, and unified ORM DSL.", url: "https://www.farming-labs.dev/", category: "JavaScript Ecosystem", tags: ["Tools", "UI", "ORM"], trending: true }
 ];
