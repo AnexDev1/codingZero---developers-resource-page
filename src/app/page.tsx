@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, ExternalLink, BookmarkPlus, Zap, Flame, Compass, Settings, Check } from "lucide-react";
+import { Search, ExternalLink, BookmarkPlus, Zap, Flame, Compass, Check } from "lucide-react";
 import { resourcesData, categories } from "@/data/resources";
 
 export default function Home() {
@@ -238,7 +238,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold mb-2">No resources found</h3>
               <p className="text-muted-foreground max-w-sm mx-auto">
-                We couldn't find anything matching your search for "{searchQuery}". Try adjusting your filters.
+                We couldn&apos;t find anything matching your search for &quot;{searchQuery}&quot;. Try adjusting your filters.
               </p>
               <button 
                 onClick={() => {setSearchQuery(""); setActiveCategory("All")}}
